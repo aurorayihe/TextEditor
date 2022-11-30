@@ -1,7 +1,7 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "A text editor that runs in the browser, single page, and meets the PWA criteria",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -12,7 +12,7 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "aurorayihe",
+  "author": "JennyW_aurorayihe",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
